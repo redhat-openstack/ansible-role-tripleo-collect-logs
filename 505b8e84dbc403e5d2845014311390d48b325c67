@@ -1,0 +1,7 @@
+Code-Review+2: Harry Rybacki <hrybacki@gmail.com>
+Verified+1: Harry Rybacki <hrybacki@gmail.com>
+Submitted-by: Harry Rybacki <hrybacki@gmail.com>
+Submitted-at: Wed, 20 Apr 2016 16:06:11 -0400
+Reviewed-on: https://review.gerrithub.io/273651
+Project: redhat-openstack/ansible-role-tripleo-collect-logs
+Branch: refs/heads/master
