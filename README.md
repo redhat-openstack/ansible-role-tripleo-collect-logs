@@ -12,7 +12,12 @@ C.A.T..
 Role Variables
 --------------
 
-TBD
+* archive_list: -- Files and directories which will be archived
+  - /var/log/
+    ...
+  - /etc/selinux
+* gzip_only: <false>  -- If true, logs will not be tarballed and their file hierarchy will be maintained when fetched
+* rsync_logs: <false> -- If true, role will attempt to rsync logs to remote server. Note: expects env variables BUILD_URL and PROVISIONER_KEY to be set on localhost
 
 Dependencies
 ------------
