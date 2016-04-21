@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_9355bc51",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-04-21T14:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_907db21e",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 14
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_7078ee2b",
         "filename": "defaults/main.yml",
         "patchSetId": 1
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_53fdf438",
+        "filename": "defaults/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-04-21T14:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_7078ee2b",
+      "range": {
+        "startLine": 40,
+        "startChar": 11,
+        "endLine": 40,
+        "endChar": 16
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_70910e52",
         "filename": "tasks/main.yml",
         "patchSetId": 1
@@ -59,6 +107,30 @@
       "writtenOn": "2016-04-21T10:00:46Z",
       "side": 1,
       "message": "I just noticed that this could be `with_flattened:` for a minimal speed up.",
+      "range": {
+        "startLine": 6,
+        "startChar": 2,
+        "endLine": 6,
+        "endChar": 13
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_f3f1a86b",
+        "filename": "tasks/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-04-21T14:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_70910e52",
       "range": {
         "startLine": 6,
         "startChar": 2,
@@ -128,6 +200,30 @@
       "writtenOn": "2016-04-21T10:00:46Z",
       "side": 1,
       "message": "needs to be defined too.",
+      "range": {
+        "startLine": 5,
+        "startChar": 58,
+        "endLine": 5,
+        "endChar": 70
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_73d7d8bf",
+        "filename": "templates/full_logs.html.j2",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-04-21T14:15:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_d0821a00",
       "range": {
         "startLine": 5,
         "startChar": 58,
