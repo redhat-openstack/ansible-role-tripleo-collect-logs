@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_907db21e",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-04-21T10:00:46Z",
+      "side": 1,
+      "message": "Shouldn\u0027t we prefix these to avoid name collisions?\n\nAlso there are a couple of them missing, see the rest of the comments.",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 14
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_7078ee2b",
+        "filename": "defaults/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-04-21T10:00:46Z",
+      "side": 1,
+      "message": "I\u0027d make this the default.",
+      "range": {
+        "startLine": 40,
+        "startChar": 11,
+        "endLine": 40,
+        "endChar": 16
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_70910e52",
+        "filename": "tasks/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-04-21T10:00:46Z",
+      "side": 1,
+      "message": "I just noticed that this could be `with_flattened:` for a minimal speed up.",
+      "range": {
+        "startLine": 6,
+        "startChar": 2,
+        "endLine": 6,
+        "endChar": 13
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_50c96a77",
+        "filename": "tasks/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-04-21T10:00:46Z",
+      "side": 1,
+      "message": "This needs to be changed \u0026 defined too.",
+      "range": {
+        "startLine": 191,
+        "startChar": 112,
+        "endLine": 191,
+        "endChar": 126
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d0ab3a88",
+        "filename": "tasks/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-04-21T10:00:46Z",
+      "side": 1,
+      "message": "- probably we should actually have a collect_path defined for where we\u0027re gathering the logs (like a base_dir here)\n- job.rsync_path needs to be defined\n- we need a note about $BUILD_TAG being defined in the README",
+      "range": {
+        "startLine": 198,
+        "startChar": 4,
+        "endLine": 198,
+        "endChar": 86
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d0821a00",
+        "filename": "templates/full_logs.html.j2",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-04-21T10:00:46Z",
+      "side": 1,
+      "message": "needs to be defined too.",
+      "range": {
+        "startLine": 5,
+        "startChar": 58,
+        "endLine": 5,
+        "endChar": 70
+      },
+      "revId": "baafb8c0904ebedbb9460307caf18445beb09e15",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
