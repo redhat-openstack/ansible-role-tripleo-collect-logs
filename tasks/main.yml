@@ -105,6 +105,13 @@
   become_user: root
   ignore_errors: true
 
+- name: Set default archive list
+  set_fact: collect_list="{{ artcl_collect_list | join(' ') }}"
+
+- name: Override archive list
+  set_fact: collect_list="{{ artcl_archive_override[inventory_hostname] | join(' ') }}"
+  when: artcl_archive_override is defined and artcl_archive_override[inventory_hostname] is defined
+
 - name: Gather the logs to /tmp
   become: yes
   become_user: root
