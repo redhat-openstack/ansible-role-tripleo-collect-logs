@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_cde82013",
+        "filename": "tasks/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-05-03T12:10:44Z",
+      "side": 1,
+      "message": "let\u0027s call it artcl_collect_override to harmonize with the other name. or change back the collect_list to archive list, but it should match.",
+      "range": {
+        "startLine": 113,
+        "startChar": 8,
+        "endLine": 113,
+        "endChar": 30
+      },
+      "revId": "e5a5b445ba4175602d3816f25e62e3213346446f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_0dc6089a",
+        "filename": "tasks/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-05-03T12:10:44Z",
+      "side": 1,
+      "message": "This should be \"collect_list\", and only do join(\u0027 \u0027) once, not at both places, that\u0027s why it started archiving \"/\" the first time. I think doing it here would be preferable.",
+      "range": {
+        "startLine": 120,
+        "startChar": 58,
+        "endLine": 120,
+        "endChar": 86
+      },
+      "revId": "e5a5b445ba4175602d3816f25e62e3213346446f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
