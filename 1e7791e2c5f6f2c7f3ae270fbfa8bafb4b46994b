@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_9ce1249d",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-05-04T14:04:33Z",
+      "side": 1,
+      "message": "artcl_collect_override",
+      "range": {
+        "startLine": 112,
+        "startChar": 29,
+        "endLine": 112,
+        "endChar": 51
+      },
+      "revId": "1e7791e2c5f6f2c7f3ae270fbfa8bafb4b46994b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
