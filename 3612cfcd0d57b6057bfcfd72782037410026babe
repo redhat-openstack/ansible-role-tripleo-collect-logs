@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_f38bbac1",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-05-05T16:51:43Z",
+      "side": 1,
+      "message": "Not sure I understand, this missing is causing CI errors?",
+      "revId": "3612cfcd0d57b6057bfcfd72782037410026babe",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
