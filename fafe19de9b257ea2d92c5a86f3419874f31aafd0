@@ -1,0 +1,7 @@
+Code-Review+2: Attila Darazs <adarazs@redhat.com>
+Verified+1: Harry Rybacki <hrybacki@gmail.com>
+Submitted-by: Harry Rybacki <hrybacki@gmail.com>
+Submitted-at: Thu, 05 May 2016 12:09:15 -0400
+Reviewed-on: https://review.gerrithub.io/275010
+Project: redhat-openstack/ansible-role-tripleo-collect-logs
+Branch: refs/heads/master
