@@ -16,6 +16,24 @@
       "revId": "3612cfcd0d57b6057bfcfd72782037410026babe",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_93a58e48",
+        "filename": "tasks/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1003864
+      },
+      "writtenOn": "2016-05-05T17:15:40Z",
+      "side": 1,
+      "message": "I think it might be a permissions problem \n21:09:03 fatal: [overcloud-novacompute-0]: FAILED! \u003d\u003e {\"changed\": false, \"failed\": true, \"msg\": \"rmtree failed: [Errno 13] Permission denied: \u0027/tmp/overcloud-novacompute-0/var/lib/mysql\u0027\"}\n21:09:03 fatal: [overcloud-controller-0]: FAILED! \u003d\u003e {\"changed\": false, \"failed\": true, \"msg\": \"rmtree failed: [Errno 13] Permission denied: \u0027/tmp/overcloud-controller-0/var/lib/mysql/sahara/job_binary_internal.ibd\u0027\"}\n\nso I\u0027d rather do an ignore errors than a sudo",
+      "parentUuid": "baa041b7_f38bbac1",
+      "revId": "3612cfcd0d57b6057bfcfd72782037410026babe",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
