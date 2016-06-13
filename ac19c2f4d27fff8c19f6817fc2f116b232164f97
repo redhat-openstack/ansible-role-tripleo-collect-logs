@@ -1,0 +1,7 @@
+Verified+1: <openstack-ci-service+rdo-ci-centos@redhat.com>
+Code-Review+2: Attila Darazs <adarazs@redhat.com>
+Submitted-by: Attila Darazs <adarazs@redhat.com>
+Submitted-at: Mon, 13 Jun 2016 11:54:23 -0400
+Reviewed-on: https://review.gerrithub.io/279614
+Project: redhat-openstack/ansible-role-tripleo-collect-logs
+Branch: refs/heads/master
