@@ -37,6 +37,12 @@ artcl_collect_list:
   - /usr/share/openstack-tripleo-heat-templates
   - /etc/yum.repos.d
   - /etc/selinux
+  - /home/oooq-images/*.sh
+  - /home/oooq-images/*.log
+  - /home/oooq-images/*.yml
+  - /var/lib/oooq-images/*.sh
+  - /var/lib/oooq-images/*.log
+  - /var/lib/oooq-images/*.yml
 artcl_collect_dir: "{{ lookup('env', 'PWD') }}/collected_files"
 artcl_gzip_only: true
 artcl_rsync_logs: false
