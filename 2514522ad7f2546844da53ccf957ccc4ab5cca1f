@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_312f2ca3",
+        "filename": "defaults/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-06-21T12:32:54Z",
+      "side": 1,
+      "message": "These defaults are overridden by a config file[1] for the collect-logs.sh[2] script, so this change wouldn\u0027t work in our CI.\n\nActually I\u0027m not that happy about this state, so I\u0027d rather see the artcl_collect_list override being deleted from configs/centosci-logs.yml (make sure they are equivalent before) and keep the oooq-images log definitions here.\n\n[1] https://github.com/redhat-openstack/ansible-role-tripleo-collect-logs/blob/master/configs/centosci-logs.yml\n[2] https://github.com/openstack/tripleo-quickstart/blob/master/ci-scripts/collect-logs.sh#L23",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 30
+      },
+      "revId": "2514522ad7f2546844da53ccf957ccc4ab5cca1f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
