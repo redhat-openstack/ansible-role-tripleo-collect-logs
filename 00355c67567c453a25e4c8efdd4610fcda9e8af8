@@ -1,0 +1,7 @@
+Code-Review+2: wes hayutin <weshayutin@gmail.com>
+Verified+1: wes hayutin <weshayutin@gmail.com>
+Submitted-by: wes hayutin <weshayutin@gmail.com>
+Submitted-at: Thu, 14 Jul 2016 14:40:57 -0400
+Reviewed-on: https://review.gerrithub.io/284065
+Project: redhat-openstack/ansible-role-tripleo-collect-logs
+Branch: refs/heads/master
