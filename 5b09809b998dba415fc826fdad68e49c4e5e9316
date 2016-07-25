@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_58900f43",
+        "filename": "configs/centosci-logs.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-07-25T14:24:21Z",
+      "side": 1,
+      "message": "See my comment here: https://review.gerrithub.io/#/c/281176/1/defaults/main.yml@45\n\nI made it for myoung, but it\u0027s relevant here as well. We should not have an override here, as this is the primary use case.",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 21
+      },
+      "revId": "5b09809b998dba415fc826fdad68e49c4e5e9316",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
