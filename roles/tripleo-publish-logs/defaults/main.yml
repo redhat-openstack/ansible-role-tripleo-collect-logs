@@ -1,0 +1,5 @@
+---
+# defaults file for ansible-role-tripleo-publish-logs
+
+artcl_collect_dir: "{{ lookup('env', 'PWD') }}/collected_files"
+artcl_rsync_logs: false

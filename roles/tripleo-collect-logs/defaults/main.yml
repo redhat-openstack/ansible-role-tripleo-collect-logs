@@ -1,6 +1,7 @@
 ---
 # defaults file for ansible-role-tripleo-collect-logs
 
+artcl_collect_dir: "{{ lookup('env', 'PWD') }}/collected_files"
 artcl_collect_list:
   - /var/log/
   - /var/lib/mysql
@@ -40,6 +41,3 @@ artcl_collect_list:
   - /usr/share/openstack-tripleo-heat-templates
   - /etc/yum.repos.d
   - /etc/selinux
-artcl_collect_dir: "{{ lookup('env', 'PWD') }}/collected_files"
-artcl_gzip_only: true
-artcl_rsync_logs: false
