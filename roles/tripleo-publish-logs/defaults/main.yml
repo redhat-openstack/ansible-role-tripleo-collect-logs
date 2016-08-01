@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-role-tripleo-publish-logs
+
+artcl_rsync_logs: false

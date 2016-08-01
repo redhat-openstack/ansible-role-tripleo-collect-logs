@@ -4,3 +4,4 @@
   gather_facts: no
   roles:
     - tripleo-collect-logs
+    - tripleo-publish-logs
