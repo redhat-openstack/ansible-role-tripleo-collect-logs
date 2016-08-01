@@ -1,0 +1,4 @@
+---
+
+artcl_collect_dir: "{{ lookup('env', 'PWD') }}/collected_files"
+artcl_gzip_only: true

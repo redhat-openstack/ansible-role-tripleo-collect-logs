@@ -1,0 +1,50 @@
+---
+# tasks file for ansible-role-tripleo-publish-logs
+
+- name: Get list of log files
+  shell: ls "{{ artcl_collect_dir }}" | grep .*tar
+  register: files_to_unarchive
+  when: artcl_gzip_only|bool
+
+- name: Extract the logs
+  shell: >
+    chdir={{ artcl_collect_dir }}
+    tar xf {{ item }};
+  when: artcl_gzip_only|bool
+  with_items: "{{ files_to_unarchive.stdout_lines }}"
+
+- name: delete the tar file after extraction
+  file:
+    path: "{{ artcl_collect_dir }}/{{ item }}"
+    state: absent
+  when: artcl_gzip_only|bool
+  with_items: "{{ files_to_unarchive.stdout_lines }}"
+
+- name: fetch and gzip the console log
+  shell: >
+    curl {{ lookup('env', 'BUILD_URL') }}/consoleText | gzip > {{ artcl_collect_dir }}/console.txt.gz
+  when: artcl_rsync_logs|bool and "{{ lookup('env', 'BUILD_URL') }}" != ""
+
+#internal-ci
+- name: upload to the artifact server using pubkey auth
+  shell: >
+    rsync -av -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" {{ artcl_collect_dir }}/ {{ artcl_rsync_path }}/$BUILD_TAG
+  retries: 5
+  delay: 60
+  when: artcl_rsync_logs|bool and artcl_rsync_use_daemon == false
+
+#centos-ci
+- name: upload to the artifact server using password auth
+  environment:
+    RSYNC_PASSWORD: "{{ lookup('env', 'RSYNC_PASSWORD') }}"
+  shell: >
+    rsync -av {{ artcl_collect_dir }}/ {{ artcl_rsync_path }}/$BUILD_TAG
+  retries: 5
+  delay: 60
+  when: artcl_rsync_logs|bool and artcl_rsync_use_daemon == true
+
+- name: create the artifact location redirect file
+  template:
+    src: full_logs.html.j2
+    dest: "{{ artcl_collect_dir }}/full_logs.html"
+  when: artcl_rsync_logs|bool
