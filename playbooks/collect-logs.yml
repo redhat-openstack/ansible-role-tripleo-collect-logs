@@ -1,6 +1,6 @@
 ---
-- name: Collect logs and debug data
+- name: Call tripleo-collect-logs role
   hosts: all:!localhost
   gather_facts: no
   roles:
-    - tripleo-collect-logs
+    - role: tripleo-collect-logs
