@@ -43,3 +43,6 @@ artcl_collect_list:
 artcl_collect_dir: "{{ lookup('env', 'PWD') }}/collected_files"
 artcl_gzip_only: true
 artcl_rsync_logs: false
+
+artcl_collect: true
+artcl_publish: true
