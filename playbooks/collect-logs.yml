@@ -1,5 +1,5 @@
 ---
-- name: Collect logs and debug data
+- name: Collect and publish logs
   hosts: all:!localhost
   gather_facts: no
   roles:
