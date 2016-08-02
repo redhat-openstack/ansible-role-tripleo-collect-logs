@@ -3,4 +3,10 @@
   hosts: all:!localhost
   gather_facts: no
   roles:
-    - tripleo-collect-logs
+    - { role: tripleo-collect-logs, collect: true, publish: false }
+
+- name: Publish logs
+  hosts: all:!localhost
+  gather_facts: no
+  roles:
+    - { role: tripleo-collect-logs, collect: false, publish: true }
