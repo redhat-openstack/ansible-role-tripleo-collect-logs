@@ -73,6 +73,9 @@
     - name: Generate human-readable SAR logs
       shell: "[[ -f /usr/lib64/sa/sa2 ]] && /usr/lib64/sa/sa2 -A"
 
+    - name: Copy dstat.log file
+      shell: "[[ -f /var/log/dstat-csv.log ]] && cp /var/log/dstat-csv.log /var/log/extra/"
+
     - name: Search for AVC denied
       shell: "! grep -i denied /var/log/audit/audit*"
       register: result
