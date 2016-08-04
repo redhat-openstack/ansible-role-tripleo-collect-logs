@@ -1,0 +1,18 @@
+Welcome to |project| Documentation:
+===================================
+
+--------
+Contents
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   Requirements and Primer <index>
+{% for doc in artcl_create_docs_payload.table_of_contents %}
+   {{ doc }}
+{% endfor %}
+
+{% for doc in artcl_create_docs_payload.table_of_contents %}
+.. include:: {{ doc }}.rst
+{% endfor %}
