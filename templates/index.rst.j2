@@ -1,0 +1,9 @@
+.. toctree::
+   :maxdepth: 2
+
+Welcome to |project| post-build documentation:
+==============================================
+
+{% for doc in completed_templates %}
+.. include:: {{ artcl_docs_templates_dirname }}/{{ doc }}
+{% endfor %}

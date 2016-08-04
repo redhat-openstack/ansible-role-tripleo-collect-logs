@@ -4,5 +4,8 @@
 - include: collect.yml
   when: collect
 
+- include: create-docs.yml
+  when: gen_docs
+
 - include: publish.yml
   when: publish
