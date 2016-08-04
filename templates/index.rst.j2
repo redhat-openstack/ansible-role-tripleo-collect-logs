@@ -1,0 +1,6 @@
+Welcome to |project| post-build documentation:
+==============================================
+
+{% for doc in artcl_doc_whitelist %}
+.. include:: {{ artcl_docs_templates_dirname }}/{{ doc }}
+{% endfor %}
