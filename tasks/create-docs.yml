@@ -1,0 +1,42 @@
+---
+
+- name: Create empty directory to write templates to
+  file:
+    path: "{{ artcl_docs_source_dir }}/{{ artcl_docs_templates_dirname }}"
+    force: yes
+    state: directory
+
+- name: Unarchive undercloud.tar
+  shell: >
+    tar xf "{{ artcl_collect_dir }}"/undercloud.tar;
+    rm -rf "{{ artcl_collect_dir }}"/undercloud;
+    mv undercloud "{{ artcl_collect_dir }}"
+  ignore_errors: yes
+
+- name: Unarchive documents and move to Sphinx source dir
+  shell: >
+    gunzip "{{ artcl_collect_dir }}/undercloud/home/stack/{{ item }}.gz";
+  with_items: "{{ artcl_doc_whitelist }}"
+  ignore_errors: yes
+
+- name: Move documents to Sphinx source dir
+  shell: >
+    mv "{{ artcl_collect_dir }}/undercloud/home/stack/{{ item }}" "{{ artcl_docs_source_dir }}/{{ artcl_docs_templates_dirname }}"
+  with_items: "{{ artcl_doc_whitelist }}"
+  ignore_errors: yes
+
+# TODO(hrybacki): Figure out the issue with toctrees and how ot dynaimcally generate them
+- name: Generate fresh index.rst for Sphinx
+  template:
+    src: index.rst.j2
+    dest: "{{ artcl_docs_source_dir }}/index.rst"
+    force: yes
+
+# TODO(hrybacki): Determine best way to ensure docs-requirements.txt is installed
+- name: Build docs via tox
+  shell: >
+    cd "{{ artcl_docs_source_dir }}"/..;
+    sphinx-build -b html "{{ artcl_docs_source_dir }}" "{{ artcl_docs_build_dir }}"
+  register: result
+
+- debug: var=result.stdout_lines

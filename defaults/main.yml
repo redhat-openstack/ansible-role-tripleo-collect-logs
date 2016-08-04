@@ -43,3 +43,19 @@ artcl_collect_list:
 artcl_collect_dir: "{{ lookup('env', 'PWD') }}/collected_files"
 artcl_gzip_only: true
 artcl_rsync_logs: false
+
+############################
+# WIP - Docs Specific Vars #
+############################
+artcl_docs_source_dir: "{{ local_working_dir }}/usr/local/share/ansible/roles/tripleo-collect-logs/docs/source"
+artcl_docs_build_dir: "{{ artcl_collect_dir }}/docs/build"
+artcl_docs_templates_dirname: _docs
+
+# TODO(hrybacki): Move this to a more modular format (maybe default to
+#                 what is needed for a minimal deployment?)
+# List of files to attempt to pull
+artcl_doc_whitelist:
+  - undercloud-install.rst
+  - undercloud-post-install.rst
+  - overcloud-deploy.rst
+  - overcloud-deploy-post.rst
