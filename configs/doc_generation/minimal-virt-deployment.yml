@@ -1,0 +1,18 @@
+# Note(hrybacki): This config is for demo purposes and replicates what is in
+# defaults/main.yml (docs for a virthost based minimal deployment)
+artcl_create_docs_payload:
+  included_deployment_scripts:
+    - undercloud-install
+    - undercloud-post-install
+    - overcloud-deploy
+    - overcloud-deploy-post
+    - overcloud-validate
+  included_oooq_docs:
+    - env-setup-virt
+  table_of_contents:
+    - env-setup-virt
+    - undercloud-install
+    - undercloud-post-install
+    - overcloud-deploy
+    - overcloud-deploy-post
+    - overcloud-validate
