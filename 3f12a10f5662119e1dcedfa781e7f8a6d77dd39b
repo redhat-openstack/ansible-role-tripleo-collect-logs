@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_66654d43",
+        "filename": "tasks/collect.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-05T09:51:40Z",
+      "side": 1,
+      "message": "hm, we should have a |bool here as well, and for the next 3 lines. maybe we can even do a block.",
+      "range": {
+        "startLine": 130,
+        "startChar": 12,
+        "endLine": 130,
+        "endChar": 27
+      },
+      "revId": "3f12a10f5662119e1dcedfa781e7f8a6d77dd39b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_862df1ff",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-05T09:51:40Z",
+      "side": 1,
+      "message": "1) please prefix it with `artcl_` to keep up the namespace separation\n2) add a default in defaults/main.yml\n3) use `|bool` here. The reason is if you want to pass this as --extra-vars it will be interpreted as a string and even `--extra-vars\u003dfalse` will make it run. yikes.",
+      "range": {
+        "startLine": 5,
+        "startChar": 8,
+        "endLine": 5,
+        "endChar": 15
+      },
+      "revId": "3f12a10f5662119e1dcedfa781e7f8a6d77dd39b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_26362551",
+        "filename": "tasks/main.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-05T09:51:40Z",
+      "side": 1,
+      "message": "Same as above.\n\nAlso `artcl_rsync_logs` is doing the same thing, I don\u0027t think we should introduce a new variable for it, or replace that with `artcl_publish`.",
+      "range": {
+        "startLine": 8,
+        "startChar": 8,
+        "endLine": 8,
+        "endChar": 15
+      },
+      "revId": "3f12a10f5662119e1dcedfa781e7f8a6d77dd39b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_a670f508",
+        "filename": "tasks/publish.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-05T09:51:40Z",
+      "side": 1,
+      "message": "I think these belong to collect.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 78
+      },
+      "revId": "3f12a10f5662119e1dcedfa781e7f8a6d77dd39b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
