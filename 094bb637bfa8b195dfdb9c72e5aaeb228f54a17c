@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_99042b18",
+        "filename": "tasks/publish.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-08T18:53:35Z",
+      "side": 1,
+      "message": "artcl_publish|bool",
+      "revId": "094bb637bfa8b195dfdb9c72e5aaeb228f54a17c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
