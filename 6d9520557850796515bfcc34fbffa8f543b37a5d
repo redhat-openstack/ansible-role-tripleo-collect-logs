@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_59d2235d",
+        "filename": "defaults/main.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-08T16:06:53Z",
+      "side": 1,
+      "message": "Please remove `artl_rsync_logs` variable if you introduce this, as it\u0027s completely identical in usage. Also make it false by default (for people who are running it locally, we only need this enabled in CI env).\n\nDon\u0027t forget to fix it in configs/centosci-logs.yml and the README too.",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 19
+      },
+      "revId": "6d9520557850796515bfcc34fbffa8f543b37a5d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_b9c12f82",
+        "filename": "playbooks/collect-logs.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-08T16:06:53Z",
+      "side": 1,
+      "message": "I\u0027m wondering if a single \"mode\" variable would be better like\n\nartcl_mode: \u003cpublish|collect|all\u003e and include the parts according to that. `all` can be the default and we can get away with one call (for now).\n\nI\u0027m not convinced this is that much better, but would look better now.",
+      "range": {
+        "startLine": 6,
+        "startChar": 6,
+        "endLine": 6,
+        "endChar": 79
+      },
+      "revId": "6d9520557850796515bfcc34fbffa8f543b37a5d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_f9ca179f",
+        "filename": "tasks/publish.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-08T16:06:53Z",
+      "side": 1,
+      "message": "Remove these conditions from the file, as we\u0027re using artcl_publish as an include condition, so this is redundant.",
+      "range": {
+        "startLine": 10,
+        "startChar": 12,
+        "endLine": 10,
+        "endChar": 33
+      },
+      "revId": "6d9520557850796515bfcc34fbffa8f543b37a5d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
