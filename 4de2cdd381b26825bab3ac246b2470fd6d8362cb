@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_abc67697",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-08T18:53:35Z",
+      "side": 1,
+      "message": "When a squash goes bad. Will remove this next round of changes...",
+      "revId": "4de2cdd381b26825bab3ac246b2470fd6d8362cb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
