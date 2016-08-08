@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_59dfc30c",
+        "filename": "defaults/main.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-08T18:53:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_59d2235d",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 19
+      },
+      "revId": "6d9520557850796515bfcc34fbffa8f543b37a5d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_b9c12f82",
         "filename": "playbooks/collect-logs.yml",
         "patchSetId": 5
@@ -36,6 +60,30 @@
       "writtenOn": "2016-08-08T16:06:53Z",
       "side": 1,
       "message": "I\u0027m wondering if a single \"mode\" variable would be better like\n\nartcl_mode: \u003cpublish|collect|all\u003e and include the parts according to that. `all` can be the default and we can get away with one call (for now).\n\nI\u0027m not convinced this is that much better, but would look better now.",
+      "range": {
+        "startLine": 6,
+        "startChar": 6,
+        "endLine": 6,
+        "endChar": 79
+      },
+      "revId": "6d9520557850796515bfcc34fbffa8f543b37a5d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_19e5bbda",
+        "filename": "playbooks/collect-logs.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-08T18:53:35Z",
+      "side": 1,
+      "message": "\u003e I\u0027m wondering if a single \"mode\" variable would be better like\n \u003e \n \u003e artcl_mode: \u003cpublish|collect|all\u003e and include the parts according\n \u003e to that. `all` can be the default and we can get away with one call\n \u003e (for now).\n \u003e \n \u003e I\u0027m not convinced this is that much better, but would look better\n \u003e now.",
+      "parentUuid": "baa041b7_b9c12f82",
       "range": {
         "startLine": 6,
         "startChar": 6,
