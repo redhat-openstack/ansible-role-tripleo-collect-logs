@@ -16,6 +16,52 @@
       "revId": "4de2cdd381b26825bab3ac246b2470fd6d8362cb",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_e1549dfe",
+        "filename": "playbooks/collect-logs.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-09T09:31:21Z",
+      "side": 1,
+      "message": "This name is a bit of a tautology. :)\n\nIMO it should state what we\u0027re actually trying to accomplish. I guess your point is to prepare for the next change that will also build the doc, but then rather write: \"Collect and publish logs\", then you can later alter it to \"Collect logs, build deploy docs and publish them\" or something like that.",
+      "range": {
+        "startLine": 2,
+        "startChar": 8,
+        "endLine": 2,
+        "endChar": 38
+      },
+      "revId": "4de2cdd381b26825bab3ac246b2470fd6d8362cb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_e11dbd62",
+        "filename": "tasks/publish.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-09T09:31:21Z",
+      "side": 1,
+      "message": "We\u0027re only including the file when this is true, so this is redundant here.",
+      "range": {
+        "startLine": 27,
+        "startChar": 2,
+        "endLine": 27,
+        "endChar": 26
+      },
+      "revId": "4de2cdd381b26825bab3ac246b2470fd6d8362cb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
