@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_019ae113",
+        "filename": "tasks/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1000586
+      },
+      "writtenOn": "2016-08-09T12:05:33Z",
+      "side": 1,
+      "message": "The performance logs for each node are in /var/log/extra.\nSince the dstat.log file is created prior to /var/log/extra moving the log from /var/log/dstat-csv.log to /var/log/extra seems appropriate.  \n\nMy only nit is that it should be a mv not a cp.",
+      "revId": "1b5fabab5c16a68d03ffe4be328ae7bff809c0e4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
