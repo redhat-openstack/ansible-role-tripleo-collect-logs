@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_50fc2db4",
+        "filename": "playbooks/collect-logs.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-08-10T13:58:39Z",
+      "side": 1,
+      "message": "This is not needed.",
+      "range": {
+        "startLine": 6,
+        "startChar": 6,
+        "endLine": 6,
+        "endChar": 12
+      },
+      "revId": "069e2e1e6487fd7f22687df4625cc599dc6ab9ef",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
