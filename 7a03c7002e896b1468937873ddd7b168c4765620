@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_36c63768",
+        "filename": "defaults/main.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-14T22:50:16Z",
+      "side": 1,
+      "message": "Move to tripleo-quickstart/configs/general_config/minimal.yml",
+      "revId": "7a03c7002e896b1468937873ddd7b168c4765620",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_56cbfb71",
+        "filename": "defaults/main.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-14T22:50:16Z",
+      "side": 1,
+      "message": "remove",
+      "revId": "7a03c7002e896b1468937873ddd7b168c4765620",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_16c1f34d",
+        "filename": "scripts/doc_extrapolation.awk",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-14T22:50:16Z",
+      "side": 1,
+      "message": "add license and descriptor",
+      "revId": "7a03c7002e896b1468937873ddd7b168c4765620",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_f6a20fad",
+        "filename": "tasks/create-docs.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-14T22:50:16Z",
+      "side": 1,
+      "message": "Add note describing install paths from setup.cfg",
+      "revId": "7a03c7002e896b1468937873ddd7b168c4765620",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_d6a5cbb4",
+        "filename": "tasks/create-docs.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-14T22:50:16Z",
+      "side": 1,
+      "message": "s/^.*/Ensure Sphinx source directory exists",
+      "revId": "7a03c7002e896b1468937873ddd7b168c4765620",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_b6a8078d",
+        "filename": "tasks/create-docs.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-14T22:50:16Z",
+      "side": 1,
+      "message": "s/docs.*/from scripts and move to Sphinx source directory",
+      "revId": "7a03c7002e896b1468937873ddd7b168c4765620",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_96abc387",
+        "filename": "tasks/create-docs.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-14T22:50:16Z",
+      "side": 1,
+      "message": "s/fresh //",
+      "revId": "7a03c7002e896b1468937873ddd7b168c4765620",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
