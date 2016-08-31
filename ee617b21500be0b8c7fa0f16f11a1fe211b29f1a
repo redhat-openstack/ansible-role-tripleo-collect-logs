@@ -1,0 +1,7 @@
+Verified+1: <openstack-ci-service+rdo-ci-centos@redhat.com>
+Code-Review+2: wes hayutin <weshayutin@gmail.com>
+Submitted-by: wes hayutin <weshayutin@gmail.com>
+Submitted-at: Wed, 31 Aug 2016 12:50:44 -0400
+Reviewed-on: https://review.gerrithub.io/287709
+Project: redhat-openstack/ansible-role-tripleo-collect-logs
+Branch: refs/heads/master
