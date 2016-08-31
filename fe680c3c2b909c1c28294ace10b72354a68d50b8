@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_4ee33106",
+        "filename": "configs/doc_generation/virt-undercloud-baremetal-overcloud.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-31T18:07:30Z",
+      "side": 1,
+      "message": "s/oooq/static/\n\nthese docs will also have to be moved into tripleo-collect-logs/docs/static/baremetal-overcloud/ to work. Sorry for the double work :(",
+      "revId": "fe680c3c2b909c1c28294ace10b72354a68d50b8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
