@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_4eca1170",
+        "filename": "configs/doc_generation/virt-undercloud-baremetal-overcloud.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-31T18:22:30Z",
+      "side": 1,
+      "message": "included_static_docs",
+      "revId": "2ab6674c90d0c6ed59305f1211219d55266e351d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_cea4e1ba",
+        "filename": "docs/static/baremetal-overcloud/env-setup.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-31T18:22:30Z",
+      "side": 1,
+      "message": "got it working with just \u0027::\u0027 so we can remove the `.. code` sections throughout the docs now :)",
+      "revId": "2ab6674c90d0c6ed59305f1211219d55266e351d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_6e94b543",
+        "filename": "docs/static/baremetal-overcloud/env-setup.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-31T18:22:30Z",
+      "side": 1,
+      "message": "same as above",
+      "revId": "2ab6674c90d0c6ed59305f1211219d55266e351d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_4e91f151",
+        "filename": "docs/static/baremetal-overcloud/introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-31T18:22:30Z",
+      "side": 1,
+      "message": "just `::`",
+      "revId": "2ab6674c90d0c6ed59305f1211219d55266e351d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_2e9ead63",
+        "filename": "docs/static/baremetal-overcloud/introduction.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-08-31T18:22:30Z",
+      "side": 1,
+      "message": "just `::`",
+      "revId": "2ab6674c90d0c6ed59305f1211219d55266e351d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
