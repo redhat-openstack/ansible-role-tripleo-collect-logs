@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_7d5a252c",
+        "filename": "docs/static/ovb-openstack-cloud/introduction.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-01T18:18:24Z",
+      "side": 1,
+      "message": "This file shouldn\u0027t be needed. Or at least not it currentlyu exists. The contents and includes are all handled by the index.rst.j2[1] in the collect-logs role. \n\nIf you want to add the primer (like from TripleO Quickstart and below in this example) you can make the static file e.g. introduction.rst and then add it to the `artcl_create_docs_payload.included_static_docs` and `artcl_create_docs_payload.table_of_contents` respectively",
+      "revId": "fc3ec7f790f1b7b48b48ca945a6b4af413936cff",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
