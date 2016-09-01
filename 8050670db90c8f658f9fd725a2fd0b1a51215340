@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_bdd30d5f",
+        "filename": "docs/static/baremetal-overcloud/copying-customized-files.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-01T18:53:57Z",
+      "side": 1,
+      "message": "Should this be \u0027----\u0027 (level two section?)",
+      "revId": "8050670db90c8f658f9fd725a2fd0b1a51215340",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_ddced1b6",
+        "filename": "docs/static/baremetal-overcloud/customizing-external-network-vlan.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-01T18:53:57Z",
+      "side": 1,
+      "message": "Should this be \u0027----\u0027 (level two section?)",
+      "revId": "8050670db90c8f658f9fd725a2fd0b1a51215340",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_fde2b52e",
+        "filename": "docs/static/baremetal-overcloud/customizing-undercloud-conf.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-01T18:53:57Z",
+      "side": 1,
+      "message": "Should this be \u0027----\u0027 (level two section?)",
+      "revId": "8050670db90c8f658f9fd725a2fd0b1a51215340",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_3dd93d84",
+        "filename": "docs/static/baremetal-overcloud/env-setup.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-01T18:53:57Z",
+      "side": 1,
+      "message": "Should this be \u0027----\u0027 (level two section?)",
+      "revId": "8050670db90c8f658f9fd725a2fd0b1a51215340",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_1de67944",
+        "filename": "docs/static/baremetal-overcloud/env-setup.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-01T18:53:57Z",
+      "side": 1,
+      "message": "Should this be \u0027----\u0027 (level two section?)",
+      "revId": "8050670db90c8f658f9fd725a2fd0b1a51215340",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_bdec2d2a",
+        "filename": "docs/static/baremetal-overcloud/introduction.rst",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-01T18:53:57Z",
+      "side": 1,
+      "message": "Should this be \u0027----\u0027 (level two section?)",
+      "revId": "8050670db90c8f658f9fd725a2fd0b1a51215340",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
