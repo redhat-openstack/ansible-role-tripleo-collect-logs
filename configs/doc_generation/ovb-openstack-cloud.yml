@@ -1,0 +1,37 @@
+artcl_create_docs_payload:
+  included_deployment_scripts:
+    - undercloud-install
+    - undercloud-post-install
+    - overcloud-deploy
+    - overcloud-deploy-post
+    - overcloud-validate
+    - validate-overcloud-ipmi-connection
+    - setup-undercloud-connectivity
+    - adjust-interface-mtus
+  included_static_docs:
+    - ovb-openstack-cloud/introduction
+    - ovb-openstack-cloud/running-quickstart-openstack-cloud
+    - ovb-openstack-cloud/calling-quickstart
+    - baremetal-overcloud/customizing-undercloud-conf
+    - baremetal-overcloud/copying-customized-files
+    - baremetal-overcloud/env-specific-pre-deploy-steps
+    - baremetal-overcloud/customizing-external-network-vlan
+    - baremetal-overcloud/validate-prior-to-deploy
+  table_of_contents:
+    - introduction
+    - running-quickstart-openstack-cloud
+    - setup-undercloud-connectivity
+    - calling-quickstart
+    - validate-overcloud-ipmi-connection
+    - customizing-undercloud-conf
+    - undercloud-install
+    - copying-customized-files
+    - env-specific-pre-deploy-steps
+    - add-disk-size-hint
+    - adjust-interface-mtus
+    - undercloud-post-install
+    - customizing-external-network-vlan
+    - validate-prior-to-deploy
+    - overcloud-deploy
+    - overcloud-deploy-post
+    - overcloud-validate
