@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_6e9caa5d",
+        "filename": "README.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-02T14:48:56Z",
+      "side": 1,
+      "message": "missing \"the\"",
+      "range": {
+        "startLine": 17,
+        "startChar": 8,
+        "endLine": 17,
+        "endChar": 12
+      },
+      "revId": "d60ca1e7d69b5079a07df8049ab42c30a4153012",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
