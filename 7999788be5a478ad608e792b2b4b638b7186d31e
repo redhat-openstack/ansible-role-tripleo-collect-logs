@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_9eaa7519",
+        "filename": "defaults/main.yml",
+        "patchSetId": 21
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-06T12:49:28Z",
+      "side": 1,
+      "message": "These will be removed once we figure out exactly how the mechanism will work connecting OOOQ and collect-logs via the payload/configs. I will -1 the review until that\u0027s done though",
+      "parentUuid": "baa041b7_1e84255b",
+      "revId": "7999788be5a478ad608e792b2b4b638b7186d31e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_1e39c5a3",
         "filename": "docs/static/env-setup-virt.rst",
         "patchSetId": 21
@@ -30,6 +48,30 @@
       "writtenOn": "2016-09-06T10:47:05Z",
       "side": 1,
       "message": "Use \"::\" only.",
+      "range": {
+        "startLine": 41,
+        "startChar": 66,
+        "endLine": 42,
+        "endChar": 2
+      },
+      "revId": "7999788be5a478ad608e792b2b4b638b7186d31e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_1ebe6564",
+        "filename": "docs/static/env-setup-virt.rst",
+        "patchSetId": 21
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-06T12:49:28Z",
+      "side": 1,
+      "message": "This just leaves a colon at the end of the descriptor before the code block. This is the same way many of the code blocks are presented in current tripleo-documentation[1].\n\n[1] - http://docs.openstack.org/developer/tripleo-docs/environments/environments.html#preparing-the-virtual-environment-automated",
+      "parentUuid": "baa041b7_1e39c5a3",
       "range": {
         "startLine": 41,
         "startChar": 66,
@@ -122,6 +164,30 @@
       "writtenOn": "2016-09-06T10:47:05Z",
       "side": 1,
       "message": "So we dump everything into one page instead of using different pages for different sections?\n\nI\u0027m not against it, just asking if that\u0027s the intention and why.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 12
+      },
+      "revId": "7999788be5a478ad608e792b2b4b638b7186d31e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_beaf792a",
+        "filename": "templates/index.rst.j2",
+        "patchSetId": 21
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-06T12:49:28Z",
+      "side": 1,
+      "message": "Yep, we dump the files into a single page. This keeps things as simple as possible. We can port this to a series of pages if we have a good need for it but I don\u0027t think we should until that need presents itself. KISS",
+      "parentUuid": "baa041b7_de423d0f",
       "range": {
         "startLine": 16,
         "startChar": 0,
