@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_1e84255b",
+        "filename": "defaults/main.yml",
+        "patchSetId": 21
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-06T10:47:05Z",
+      "side": 1,
+      "message": "I don\u0027t see the point of this long list of commented out non-defaults. Either have it as default or remove it (and maybe add it to some docs?)",
+      "revId": "7999788be5a478ad608e792b2b4b638b7186d31e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_1e39c5a3",
+        "filename": "docs/static/env-setup-virt.rst",
+        "patchSetId": 21
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-06T10:47:05Z",
+      "side": 1,
+      "message": "Use \"::\" only.",
+      "range": {
+        "startLine": 41,
+        "startChar": 66,
+        "endLine": 42,
+        "endChar": 2
+      },
+      "revId": "7999788be5a478ad608e792b2b4b638b7186d31e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_3e36c9b4",
+        "filename": "docs/static/env-setup-virt.rst",
+        "patchSetId": 21
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-06T10:47:05Z",
+      "side": 1,
+      "message": "Use \"::\" only.",
+      "range": {
+        "startLine": 49,
+        "startChar": 55,
+        "endLine": 50,
+        "endChar": 2
+      },
+      "revId": "7999788be5a478ad608e792b2b4b638b7186d31e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_decb5da3",
+        "filename": "docs/static/env-setup-virt.rst",
+        "patchSetId": 21
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-06T10:47:05Z",
+      "side": 1,
+      "message": "Use \"::\" only.",
+      "range": {
+        "startLine": 58,
+        "startChar": 70,
+        "endLine": 59,
+        "endChar": 2
+      },
+      "revId": "7999788be5a478ad608e792b2b4b638b7186d31e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_7ebd7101",
+        "filename": "docs/static/env-setup-virt.rst",
+        "patchSetId": 21
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-06T10:47:05Z",
+      "side": 1,
+      "message": "Use \"::\" only.",
+      "range": {
+        "startLine": 66,
+        "startChar": 42,
+        "endLine": 67,
+        "endChar": 2
+      },
+      "revId": "7999788be5a478ad608e792b2b4b638b7186d31e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_de423d0f",
+        "filename": "templates/index.rst.j2",
+        "patchSetId": 21
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-09-06T10:47:05Z",
+      "side": 1,
+      "message": "So we dump everything into one page instead of using different pages for different sections?\n\nI\u0027m not against it, just asking if that\u0027s the intention and why.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 12
+      },
+      "revId": "7999788be5a478ad608e792b2b4b638b7186d31e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
