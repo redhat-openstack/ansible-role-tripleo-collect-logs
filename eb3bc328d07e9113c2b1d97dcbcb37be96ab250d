@@ -1,0 +1,10 @@
+Code-Review+2: Harry Rybacki <hrybacki@gmail.com>
+Verified+1: Harry Rybacki <hrybacki@gmail.com>
+Code-Review+2: wes hayutin <weshayutin@gmail.com>
+Verified+1: wes hayutin <weshayutin@gmail.com>
+Verified+1: <openstack-ci-service+rdo-ci-centos@redhat.com>
+Submitted-by: wes hayutin <weshayutin@gmail.com>
+Submitted-at: Tue, 06 Sep 2016 22:29:14 -0400
+Reviewed-on: https://review.gerrithub.io/290363
+Project: redhat-openstack/ansible-role-tripleo-collect-logs
+Branch: refs/heads/master
