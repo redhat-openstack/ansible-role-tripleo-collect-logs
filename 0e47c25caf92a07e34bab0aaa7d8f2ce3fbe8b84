@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_1faf7c7e",
+        "filename": "docs/static/baremetal-overcloud/customizing-undercloud-conf.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-08T13:26:55Z",
+      "side": 1,
+      "message": "should this be \u0027\u003d\u003d\u003d\u003d\u0027 ?",
+      "revId": "0e47c25caf92a07e34bab0aaa7d8f2ce3fbe8b84",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
