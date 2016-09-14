@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_99e95d82",
+        "filename": "configs/doc_generation/ovb-openstack-cloud.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-09-14T12:22:41Z",
+      "side": 1,
+      "message": "not needed?",
+      "revId": "7b72695a9f1e4d9f1c8eab2b30bc838cb8423432",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
