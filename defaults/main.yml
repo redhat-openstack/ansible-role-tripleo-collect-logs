@@ -30,6 +30,8 @@ artcl_collect_dir: "{{ lookup('env', 'PWD') }}/collected_files"
 artcl_gzip_only: true
 artcl_collect: true
 artcl_publish: false
+artcl_use_rsync: false
+artcl_use_swift: false
 
 ## Doc generation specific vars
 artcl_gen_docs: false
