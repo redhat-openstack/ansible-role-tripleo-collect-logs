@@ -1,23 +1,28 @@
 ---
 
 - block:
-    #internal-ci
-    - name: upload to the artifact server using pubkey auth
-      shell: >
+    - name: upload to the artifact server using rsync
+      command: >
         rsync -av -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" {{ artcl_collect_dir }}/ {{ artcl_rsync_path }}/$BUILD_TAG
-      retries: 5
-      delay: 60
-      when: artcl_rsync_use_daemon == false
-
-    #centos-ci
-    - name: upload to the artifact server using password auth
       environment:
         RSYNC_PASSWORD: "{{ lookup('env', 'RSYNC_PASSWORD') }}"
-      shell: >
-        rsync -av {{ artcl_collect_dir }}/ {{ artcl_rsync_path }}/$BUILD_TAG
+      changed_when: true
       retries: 5
       delay: 60
-      when: artcl_rsync_use_daemon == true
+      when: artcl_use_rsync|bool
+
+    - name: upload to swift based artifact server
+      command: >
+        swift upload --header "X-Delete-After:{{ artcl_swift_delete_after }}" logs/$BUILD_TAG *
+      args:
+        chdir: "{{ artcl_collect_dir }}"
+      changed_when: true
+      environment:
+        OS_AUTH_URL: {{ artcl_swift_auth_url }}
+        OS_USERNAME: {{ artcl_swift_username }}
+        OS_PASSWORD: {{ artcl_swift_password }}
+        OS_TENANT_NAME: {{ artcl_swift_tenant_name }}
+      when: artcl_use_swift|bool
 
     - name: create the artifact location redirect file
       template:
