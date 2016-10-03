@@ -131,6 +131,9 @@
     for F in $(ls -d1 /var/log/rpm.list /var/log/extra {{ collect_list }}); do
       cp -rL --parents $F /tmp/{{ inventory_hostname }};
     done;
+    # delete special files
+    find /tmp/{{ inventory_hostname }} -type b -o -type c -o -type p -o -type s --delete;
+    # set default permissions
     find /tmp/{{ inventory_hostname }} -type d -print0 | xargs -0 chmod 755;
     find /tmp/{{ inventory_hostname }} -type f -print0 | xargs -0 chmod 644;
     chown -R {{ ansible_user }}: /tmp/{{ inventory_hostname }};
