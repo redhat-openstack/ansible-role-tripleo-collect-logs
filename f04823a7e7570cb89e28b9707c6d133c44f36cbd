@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_b7271ab5",
+        "filename": "templates/index.rst.j2",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-10-13T13:07:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_9c1c3d78",
+      "range": {
+        "startLine": 4,
+        "startChar": 46,
+        "endLine": 5,
+        "endChar": 109
+      },
+      "revId": "f04823a7e7570cb89e28b9707c6d133c44f36cbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_7c0f3939",
         "filename": "templates/index.rst.j2",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2016-10-13T12:59:10Z",
       "side": 1,
       "message": "Let\u0027s keep it under 100 chars at most (except for link lines where we can\u0027t help it).",
+      "range": {
+        "startLine": 6,
+        "startChar": 101,
+        "endLine": 6,
+        "endChar": 111
+      },
+      "revId": "f04823a7e7570cb89e28b9707c6d133c44f36cbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_972ad67c",
+        "filename": "templates/index.rst.j2",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-10-13T13:07:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_7c0f3939",
       "range": {
         "startLine": 6,
         "startChar": 101,
