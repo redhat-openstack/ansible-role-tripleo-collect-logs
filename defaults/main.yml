@@ -4,6 +4,7 @@
 artcl_collect_list:
   - /var/log/
   - /var/lib/mysql
+  - /var/tmp/sosreport*
   - /etc/
   - /home/stack/.instack/install-undercloud.log
   - /home/stack/stackrc
@@ -37,6 +38,8 @@ artcl_use_swift: false
 # clean up the logs after 31 days
 artcl_swift_delete_after: 2678400
 artcl_swift_container: logs
+
+artcl_collect_sosreport: false
 
 ## Doc generation specific vars
 artcl_gen_docs: false
