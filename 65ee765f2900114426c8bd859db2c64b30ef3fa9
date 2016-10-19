@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_5596713e",
+        "filename": "defaults/main.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1007211
+      },
+      "writtenOn": "2016-10-19T15:15:51Z",
+      "side": 1,
+      "message": "devil\u0027s advocate / curious: why not default to true?",
+      "range": {
+        "startLine": 42,
+        "startChar": 25,
+        "endLine": 42,
+        "endChar": 30
+      },
+      "revId": "65ee765f2900114426c8bd859db2c64b30ef3fa9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_7593b54f",
+        "filename": "tasks/collect.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1007211
+      },
+      "writtenOn": "2016-10-19T15:15:51Z",
+      "side": 1,
+      "message": "does this need to be installed?",
+      "range": {
+        "startLine": 116,
+        "startChar": 8,
+        "endLine": 116,
+        "endChar": 17
+      },
+      "revId": "65ee765f2900114426c8bd859db2c64b30ef3fa9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
