@@ -187,6 +187,18 @@
         state: absent
       when: artcl_gzip_only|bool
 
+    - name: Check for stackviz report data
+      stat: path="{{ artcl_collect_dir }}/undercloud/home/stack/stackviz_static/build/data"
+      register: stackviz
+
+    - name: Unzip stackviz files
+      command: gzip -d -r "{{ artcl_collect_dir }}/undercloud/home/stack/stackviz_static"
+      when: stackviz.stat.exists
+
+    - name: Create symlink in the base dir
+      command: ln -s "{{ artcl_collect_dir }}/undercloud/home/stack/stackviz_static/build/index.html" {{ artcl_collect_dir }}/stackviz.html
+      when: stackviz.stat.exists
+
     - name: fetch and gzip the console log
       shell: >
         curl {{ lookup('env', 'BUILD_URL') }}/consoleText | gzip > {{ artcl_collect_dir }}/console.txt.gz
