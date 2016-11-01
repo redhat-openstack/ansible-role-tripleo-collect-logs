@@ -1,0 +1,8 @@
+Verified+1: <openstack-ci-service+rdo-ci-centos@redhat.com>
+Code-Review+1: Jon Schlueter <jschluet@redhat.com>
+Code-Review+2: Harry Rybacki <hrybacki@gmail.com>
+Submitted-by: Harry Rybacki <hrybacki@gmail.com>
+Submitted-at: Tue, 01 Nov 2016 12:17:29 -0400
+Reviewed-on: https://review.gerrithub.io/300343
+Project: redhat-openstack/ansible-role-tripleo-collect-logs
+Branch: refs/heads/master
