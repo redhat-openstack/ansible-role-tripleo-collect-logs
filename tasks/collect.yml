@@ -201,6 +201,18 @@
         state: absent
       when: artcl_gzip_only|bool
 
+    - name: check for tempest results
+      stat: path="{{ artcl_collect_dir }}/undercloud/home/stack/tempest/tempest.html.gz"
+      register: st_tempest
+
+    - name: unzip the tempest html file
+      command: gzip -d "{{ artcl_collect_dir }}/undercloud/home/stack/tempest/tempest.html.gz"
+      when: st_tempest.stat.exists
+
+    - name: soft link the tempest html to the base dir of the logs
+      command: ln -s "{{ artcl_collect_dir }}/undercloud/home/stack/tempest/tempest.html.gz" {{ artcl_collect_dir }}/tempest.html
+      when: st_tempest.stat.exists
+
     - name: fetch and gzip the console log
       shell: >
         curl {{ lookup('env', 'BUILD_URL') }}/consoleText | gzip > {{ artcl_collect_dir }}/console.txt.gz
