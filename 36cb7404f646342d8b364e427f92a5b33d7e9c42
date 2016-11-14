@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_6e7258b2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-11-14T16:18:25Z",
+      "side": 1,
+      "message": "Can you please add a proper depends-on line so we can check out the output of this?\n\n    Depends-On: I9df81be68c96f4dd5d94a4b5c7971fa777a8ea1d\n\nI just realized we don\u0027t have any gate job running tempest anyway, so it won\u0027t work anyway.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 61
+      },
+      "revId": "36cb7404f646342d8b364e427f92a5b33d7e9c42",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_6e9938d0",
+        "filename": "defaults/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-11-14T16:18:25Z",
+      "side": 1,
+      "message": "Might be a better idea to place the files in /var/log/extra/stackviz and remove the need to add them specifically (everything gets collected from there).",
+      "range": {
+        "startLine": 24,
+        "startChar": 4,
+        "endLine": 24,
+        "endChar": 37
+      },
+      "revId": "36cb7404f646342d8b364e427f92a5b33d7e9c42",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_0ea62c0f",
+        "filename": "tasks/collect.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-11-14T16:18:25Z",
+      "side": 1,
+      "message": "This won\u0027t reliably work on various artifact servers. It would be better to copy it out properly. Also do that before unzipping, it\u0027s better to keep the inside logs uniformly compressed.",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 198,
+        "endChar": 42
+      },
+      "revId": "36cb7404f646342d8b364e427f92a5b33d7e9c42",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
