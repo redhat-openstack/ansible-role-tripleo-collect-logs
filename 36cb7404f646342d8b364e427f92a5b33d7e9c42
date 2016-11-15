@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_ea0531c1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1002379
+      },
+      "writtenOn": "2016-11-15T11:45:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_6e7258b2",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 61
+      },
+      "revId": "36cb7404f646342d8b364e427f92a5b33d7e9c42",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_6e9938d0",
         "filename": "defaults/main.yml",
         "patchSetId": 3
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "baa041b7_0a03b5bf",
+        "filename": "defaults/main.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1002379
+      },
+      "writtenOn": "2016-11-15T11:45:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_6e9938d0",
+      "range": {
+        "startLine": 24,
+        "startChar": 4,
+        "endLine": 24,
+        "endChar": 37
+      },
+      "revId": "36cb7404f646342d8b364e427f92a5b33d7e9c42",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa041b7_0ea62c0f",
         "filename": "tasks/collect.yml",
         "patchSetId": 3
@@ -59,6 +107,30 @@
       "writtenOn": "2016-11-14T16:18:25Z",
       "side": 1,
       "message": "This won\u0027t reliably work on various artifact servers. It would be better to copy it out properly. Also do that before unzipping, it\u0027s better to keep the inside logs uniformly compressed.",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 198,
+        "endChar": 42
+      },
+      "revId": "36cb7404f646342d8b364e427f92a5b33d7e9c42",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_ca0cadee",
+        "filename": "tasks/collect.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 1002379
+      },
+      "writtenOn": "2016-11-15T11:45:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa041b7_0ea62c0f",
       "range": {
         "startLine": 198,
         "startChar": 0,
